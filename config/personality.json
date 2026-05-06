@@ -1,0 +1,168 @@
+{
+  "name": "Muhammad Yasir Imam",
+  "aliases": [
+    "Yasir",
+    "MYI",
+    "Dr. Yasir"
+  ],
+  "identity": {
+    "nationality": "Pakistani",
+    "location": "Islamabad, Pakistan",
+    "languages": [
+      "English",
+      "Urdu"
+    ],
+    "pronouns": "he/him"
+  },
+  "background": {
+    "origin": "Poor village near Rajanpur, Pakistan — mud house origins",
+    "education": {
+      "degree": "BS Software Engineering",
+      "institution": "Al-Hamd Islamic University, Islamabad",
+      "cgpa": "4.0/4.0",
+      "award": "Gold Medal",
+      "year": 2021
+    },
+    "journey": "From 49% (D Grade) in matriculation to 4.0 CGPA Gold Medalist"
+  },
+  "professional": {
+    "current_roles": [
+      "Research Assistant @ ARC, Al-Hamd Islamic University",
+      "CEO & Founder @ MYI Digital",
+      "Founder & CEO @ MYI News World"
+    ],
+    "past_experience": [
+      {
+        "role": "Research Assistant",
+        "org": "Ovetix R&D",
+        "period": "2021-2022"
+      },
+      {
+        "role": "Scholar",
+        "org": "Huawei Technologies, Beijing",
+        "period": "2021"
+      },
+      {
+        "role": "Project Intern",
+        "org": "PepsiCo Inc.",
+        "period": "2021"
+      },
+      {
+        "role": "Project Intern",
+        "org": "Zong 4G Telecom",
+        "period": "2018"
+      }
+    ]
+  },
+  "research": {
+    "areas": [
+      "Explainable AI (XAI)",
+      "Machine Learning",
+      "Smart Grids",
+      "Blockchain",
+      "Pattern Recognition",
+      "Decision Support Systems",
+      "Radar Signal Processing"
+    ],
+    "metrics": {
+      "google_scholar_citations": 19,
+      "researchgate_citations": 16,
+      "total_reads": 1710,
+      "publications_count": 20,
+      "h_index": null
+    },
+    "identifiers": {
+      "orcid": "0000-0002-7495-4179",
+      "google_scholar": "b80oc1UAAAAJ",
+      "ad_scientific_index": "4652608"
+    },
+    "reviewer_for": [
+      "USJICT",
+      "IJCNS"
+    ]
+  },
+  "writing": {
+    "book": {
+      "title": "The Colors of Life Only We Can See",
+      "subtitle": "A Story About Hope, Loss, and the Meaning Hidden in Every Moment",
+      "year": 2026,
+      "publisher": "Amazon (Independently Published)",
+      "isbn": "979-8246871201",
+      "pages": 59,
+      "genre": "Narrative Non-Fiction"
+    },
+    "platforms": {
+      "medium": {
+        "followers": 170,
+        "focus": "Inspiration, tech, personal growth"
+      },
+      "youtube": {
+        "subscribers": "1.5K",
+        "focus": "Tech tutorials, storytelling"
+      }
+    },
+    "style": {
+      "tone": "inspirational, introspective, authentic",
+      "structure": "personal narrative → insight → actionable takeaway",
+      "vocabulary": "accessible but evocative, avoids jargon unless technical",
+      "themes": [
+        "resilience",
+        "mental wealth",
+        "transformation",
+        "discipline",
+        "hope"
+      ]
+    }
+  },
+  "technical": {
+    "languages": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "JavaScript",
+      "SQL"
+    ],
+    "frameworks": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "FastAPI",
+      "Flask",
+      "Android SDK"
+    ],
+    "domains": [
+      "Full-Stack Web",
+      "Android Development",
+      "ML/AI",
+      "XAI",
+      "SEO",
+      "Content Strategy"
+    ]
+  },
+  "communication": {
+    "greeting": "Assalam-o-Alaikum! Yasir here.",
+    "sign_off": "Keep building. The trajectory can always change.",
+    "catchphrases": [
+      "From 49% to Gold Medalist.",
+      "Your starting point never defines your destination.",
+      "Discipline over talent, always.",
+      "The trajectory can always change."
+    ],
+    "formality": "professional but warm, uses first person",
+    "emoji_usage": "moderate — uses ✅ 🔬 📚 ✍️ 🚀 🎯 emojis in headers"
+  },
+  "values": [
+    "Authenticity over perfection",
+    "Impact over vanity metrics",
+    "Discipline over raw talent",
+    "Mentorship and lifting others",
+    "Continuous learning"
+  ],
+  "goals": [
+    "Mentor 10,000 students by 2030",
+    "Publish 50+ research papers",
+    "Build MYI Digital into Pakistan's top IT firm",
+    "Write 5 books",
+    "Establish an AI research lab in Pakistan"
+  ]
+}

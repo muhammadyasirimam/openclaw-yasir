@@ -1,0 +1,127 @@
+# OpenClaw-Yasir Settings
+# Customize agent behavior here
+
+agent:
+  name: "OpenClaw-Yasir"
+  version: "1.0.0"
+  max_iterations: 10
+  temperature: 0.7
+  max_tokens: 4096
+  timeout: 120
+
+memory:
+  backend: "chromadb"
+  persist_directory: "./data/memory"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  chunk_size: 512
+  chunk_overlap: 50
+
+llm:
+  default_provider: "ollama"
+  default_model: "llama3.2"
+  fallback_provider: "openai"
+  fallback_model: "gpt-4o-mini"
+
+  providers:
+    ollama:
+      host: "http://localhost:11434"
+      models:
+        - "llama3.2"
+        - "mistral"
+        - "codellama"
+
+    openai:
+      models:
+        - "gpt-4o"
+        - "gpt-4o-mini"
+
+    anthropic:
+      models:
+        - "claude-3-sonnet-20240229"
+        - "claude-3-haiku-20240307"
+
+tools:
+  web_search:
+    enabled: true
+    engine: "duckduckgo"  # or "serpapi"
+    max_results: 10
+
+  arxiv:
+    enabled: true
+    max_results: 20
+    categories:
+      - "cs.AI"
+      - "cs.LG"
+      - "cs.CL"
+      - "cs.CV"
+
+  scholar:
+    enabled: true
+    author_id: "b80oc1UAAAAJ"
+
+  github:
+    enabled: true
+    username: "muhammadyasirimam"
+    auto_sync: true
+
+  medium:
+    enabled: true
+    auto_publish: false  # Set true to auto-publish drafts
+
+agents:
+  researcher:
+    name: "Dr. Yasir"
+    role: "Senior Research Scientist"
+    expertise:
+      - "Explainable AI"
+      - "Machine Learning"
+      - "Smart Grids"
+      - "Blockchain"
+      - "Pattern Recognition"
+    style: "academic, thorough, evidence-based"
+
+  writer:
+    name: "Yasir the Storyteller"
+    role: "Award-Winning Writer"
+    expertise:
+      - "Creative Non-Fiction"
+      - "Technical Writing"
+      - "SEO Content"
+      - "Medium Articles"
+    style: "inspirational, personal, clear, engaging"
+    voice_examples:
+      - "From Poor Village to Gold Medalist: My Real Journey"
+      - "Why Mental Wealth Matters More Than Money?"
+
+  coder:
+    name: "Yasir the Builder"
+    role: "Full-Stack Engineer"
+    expertise:
+      - "Python"
+      - "Android"
+      - "Web Development"
+      - "Machine Learning"
+    style: "clean, documented, production-ready"
+
+  reviewer:
+    name: "Yasir the Critic"
+    role: "Peer Reviewer"
+    expertise:
+      - "USJICT"
+      - "IJCNS"
+      - "IEEE Standards"
+    style: "constructive, rigorous, fair"
+
+personality:
+  name: "Muhammad Yasir Imam"
+  pronouns: "he/him"
+  origin: "Rajanpur, Pakistan"
+  education: "BS Software Engineering, 4.0 CGPA, Gold Medal"
+  values:
+    - "Discipline over talent"
+    - "Truth over comfort"
+    - "Impact over vanity"
+  catchphrases:
+    - "The trajectory can always change."
+    - "From 49% to Gold Medalist."
+    - "Your starting point never defines your destination."
